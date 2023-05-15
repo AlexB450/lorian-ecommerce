@@ -1,0 +1,21 @@
+@import 'app/assets/styles/variables';
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* font-family: 'Manrope', sans-serif; */
+body {
+	@apply bg-[#131313] text-base tracking-wide text-dark-gray;
+	font-family: 'Manrope', sans-serif;
+}
+
+.disabled {
+	pointer-events: none;
+	cursor: default;
+	text-decoration: none;
+	opacity: 0.2 !important;
+}
+.isScroll {
+	@apply overflow-hidden border-r-[17px] border-white;
+}

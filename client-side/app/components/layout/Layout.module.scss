@@ -1,0 +1,9 @@
+.layout {
+	main {
+	}
+	> main {
+		> .content {
+			@apply relative;
+		}
+	}
+}
